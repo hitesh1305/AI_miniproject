@@ -1,0 +1,8 @@
+.pth filter=lfs diff=lfs merge=lfs -text
+.pt filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
+.zip filter=lfs diff=lfs merge=lfs -text
+* !text -filter -merge -diff
+venv !text !filter !merge !diff
+/site-packages !text !filter !merge !diff
+/torch_cpu.dll !text !filter !merge !diff
