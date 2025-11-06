@@ -7,3 +7,7 @@
 venv !text !filter !merge !diff
 /site-packages !text !filter !merge !diff
 /torch_cpu.dll !text !filter !merge !diff
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
