@@ -7,3 +7,5 @@ checkpoints/.pth
 .DS_Store
 Thumbs.db
 .vscode/
+.venv/
+venv/
