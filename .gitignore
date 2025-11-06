@@ -1,0 +1,9 @@
+﻿pycache/
+.pyc
+.venv/
+logs/
+checkpoints/.pth
+*.pt
+.DS_Store
+Thumbs.db
+.vscode/
